@@ -1,20 +1,15 @@
 # Jobsheet-3-Embedded-System
 Jobsheet 3 : TOPOLOGI JARINGAN LOKAL DAN WIFI
 
-Memiliki bentuk rangkaian sebagai berikut,
-
-![WhatsApp Image 2022-12-21 at 16 35 58](https://user-images.githubusercontent.com/121012286/208873968-282b7eb0-dc5b-46b3-abed-7da3cf48d69b.jpeg)
 
 
 Percobaan a.  ESP32 Wi-Fi Modes dan Wifi-Scan
-
-![WhatsApp Image 2022-12-21 at 16 35 57](https://user-images.githubusercontent.com/121012286/208874109-720fb531-f519-4d2f-9833-e9b2c10e59bb.jpeg)
 
 Hasil Percobaan :
 
 ![A](https://user-images.githubusercontent.com/121012286/208874337-eb9c9139-7434-48d9-8a52-84abee81ab44.jpg)
 
-Pada percobaan pertama mendapatkan hasil jaringan wifi mana saja yang dapat kita koneksikan
+Pada percobaan pertama mendapatkan hasil jaringan wifi, kita mencoba untuk melakukan pengecekan apabila koneksi Wi-Fi dimatikan. Pada pemrograman tertulis “// if WiFi is down, try reconnecting every CHECK_WIFI_TIME seconds if ((WiFi.status() != WL_CONNECTED) && (currentMillis - previousMillis >=interval)) { Serial.print(millis()); Serial.println("Reconnecting to WiFi..."); “ yang mana keika Wi-Fi down maka program akan mencoba untuk mencari kembali koneksi Wi-Fi dan akan bertuliskan ("Reconnecting to WiFi..." seperti yang ditunjukkan pada output di samping
 
 Percobaan b. Menghubungkan ESP32 dengan Jaringan Wi-Fi
 
@@ -32,4 +27,12 @@ Percobaan d.  Mengganti Hostname ESP32
 
 ![D](https://user-images.githubusercontent.com/121012286/208875320-ef7efc80-e3bf-4d1e-abda-fe510e9910ad.png)
 
+![D 2](https://user-images.githubusercontent.com/121012286/209135500-c99e5fd7-828c-4165-b9d2-8cb5d1ae0326.png)
+
+
 Pada percobaan di atas yaitu mencoba untuk mengganti nama hostname ESP
+
+E. Mengirim Data Sensor ke Database
+
+![E](https://user-images.githubusercontent.com/121012286/209135534-aa8a6153-49b5-4e8c-8920-e29794b50678.png)
+
