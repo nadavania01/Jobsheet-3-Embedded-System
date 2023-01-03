@@ -1,7 +1,18 @@
 # Jobsheet-3-Embedded-System
 Jobsheet 3 : TOPOLOGI JARINGAN LOKAL DAN WIFI
 
+A. ALAT DAN BAHAN
 
+ESP32
+Breadboard
+Kabel jumper
+Sensor DHT 11, RFID
+LED (5) dan Push Button (3)
+Servo
+Resistor 330,1K, 10K Ohm (@ 3)
+B. TEORI SINGKAT
+
+Wireless Fidelity atau yang lebih awam kita sebut wifi adalah suatu teknologi yang menggunakan gelombang radio dalam rentang 2,4GHz sampai dengan 5GHz untuk menghubungkan perangkat seperti PC/laptop, smartphone, dan perangkat microcontroller seperti ESP32 dan ESP8266 ke jaringan lokal wireless untuk bisa mengakses internet. Untuk dapat melakukan akses internet tersebut,makaperangkat elektronik diatas perlu berada dalam satu titik akses atau hotspot jaringan nirkabel sehingga terhubung dengan wifi. Pada umumnya jaringan wifidapat menjangkau hingga 20 meter didalam ruangan dan lebih dari 20 meter untuk di luar ruangan. Pada awal kemunculannya, wifi hanya digunakan sebagaiperangkat nirkabel pada jaringan LAN (Local Area Network) akan tetapi karena pesatnya teknologi di zaman sekarang wifi menjadi kebutuhan sehari-hari untukakses jaringan internet dan IoT.Berbagai data yang kita minta atau kirimkan melalui wifi didistribusikanmelalui gelombang radio di udara. Supaya data tersebut bisa terbaca maka harusada yang namanya wireless adaptor yang menghubungkan ke wifi. Gelombang radio yang berwujud sinyal ini lalu dikirim menuju router yang fungsinya untukmemecahkan kode. Setelah terbaca maka data dikirim ke jaringan internet yang memanfaatkan koneksi ethernet. Karena jaringan wifi ini bekerja dua arah makatiap data yang diterima dalam waktu yang sama menjadi kode pada tiap paket datalalu dikirim kembali dalam bentuk sinyal radio yang diterima adaptor komputernirkabel.
 
 Percobaan a.  ESP32 Wi-Fi Modes dan Wifi-Scan
 
